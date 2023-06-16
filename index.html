@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header class="app-header bg-primary">
+            <h3>Todo </h3>
+        </header>
+<main class="app-main ">
+    <section class="inp-section p-2 ">
+        <input type="text" placeholder="Create new Card" name="inp" id="inp"> <button id="create" class="btn btn-success">Create</button>
+    </section>
+        <section class="app-section">
+            <div class="column card m-2">
+                <div class="col-head m-2">Todo <button class="btn plus" id="">+</button></div>
+                <div class="items" draggable="true">Task 1</div>
+                <div class="items" draggable="true">Task 2</div>
+                <div class="items" draggable="true">Task 3</div>
+                <div class="items" draggable="true">Task 4</div>
+            </div>
+
+            <div class="column card m-2">
+                <div class="col-head m-2">In progress <button class="btn plus" id="plus">+</button></div>
+                <div class="items" draggable="true">Task 1</div>
+                <div class="items" draggable="true">Task 2</div>
+            </div>
+
+        </section>
+</main>
+
+
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

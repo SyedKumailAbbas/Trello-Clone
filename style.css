@@ -1,0 +1,39 @@
+.app-header {
+    display: flex;
+    justify-content: center;
+}
+.app-main{
+    background-color: aquamarine;
+}
+.app-main .inp-section{
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+}
+.app-main .inp-section #inp{
+    border-radius: 0.5em;
+}
+.app-main .app-section {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.app-section .column {
+    min-height: 2em;
+    min-width: 10em;
+    border-top-left-radius: 0em;
+    border-bottom-right-radius: 1em;
+}
+
+.app-section .items {
+    background-color: aqua;
+    margin: 2px;
+}
+.app-section .column .col-head{
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+
